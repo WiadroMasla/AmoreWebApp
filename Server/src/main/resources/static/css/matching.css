@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+body {
+    align-items: center;
+    width: 100vw;
+    background-color: #0066CC
+}
+
+.header {
+height: 10vh;
+}
+
+div.main {
+    background-color: white;
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+div.scrollBox {
+    width: 90%;
+    height: 60vh;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.btn{
+font-family: Raleway;
+font-weight: 0;
+font-size: 22px;
+color: #fff;
+background-color: #0066CC;
+box-shadow: none;
+cursor: pointer;
+padding: 5px 20px 5px 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

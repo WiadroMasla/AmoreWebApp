@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+body {
+    align-items: center;
+    width: 100vw;
+    background-color: #0066CC
+}
+
+.header {
+height: 10vh;
+}
+
+div.main {
+    background-color: white;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+div.searchBox {
+    width: fit-content;
+    border: 1px solid black
+}
+
+.numberInput {
+    height: 46px;
+    padding-block: 0px 0px;
+}
+
+.searchInput {
+    height: 46px;
+    width: 20vw;
+    padding-block: 0px 0px;
+}
+
+.btn{
+height: 50px;
+font-family: Raleway;
+font-weight: 0;
+font-size: 22px;
+color: #fff;
+background-color: #0066CC;
+box-shadow: none;
+cursor: pointer;
+padding: 5px 20px 5px 20px;
+}
+
+#traitsForm {
+    display: none;
+}
+
+li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #0066CCA0;
+}
+
+.resultBox {
+    border: 1px solid black;
+    height: 10vh;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+div.scrollBox {
+    width: 90%;
+    height: 30vh;
+    border: 2px solid black;
+    overflow: scroll;
+}

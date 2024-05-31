@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/css/traits.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="main">
+        <div class="searchBox">
+            <div class="searchBar">
+                <input type="text" class="searchInput" id="emailInput" placeholder="Email" autocomplete="off">
+                <button class="btn" onclick="emailButtonFunction()">Wybierz użytkownika</button>
+            </div>
+            <div id="emailResultBox" class="resultBox">
+            </div>
+        </div> <br>
+        <div id="traitsForm">
+            <div class="scrollBox">
+                <table>
+                    <thead>
+                        <th> Cecha </th>
+                        <th> Waga </th>
+                    </thead>
+                    <tbody id="tableBody">
+        
+                    </tbody>
+                </table>
+            </div><br>
+            <div class="searchBox">
+                <div class="searchBar">
+                    <input type="text" class="searchInput" id="traitInput" placeholder="Cecha" autocomplete="off">
+                    <input type="number" class="numberInput" id="valueInput" placeholder="Waga" min="0">
+                    <button class="btn" onclick="traitAddButton()">Dodaj</button>
+                    <button class="btn" onclick="traitRemoveButton()">Usuń</button>
+                </div>
+                <div id="traitResultBox" class="resultBox">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/jquery.validate.js"></script>
+    <script src="/js/wantedTraits.js"></script>
+</body>
+</html>

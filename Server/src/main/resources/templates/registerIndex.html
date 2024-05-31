@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/jquery.validate.js"></script>
+    <script src="/js/register.js"></script>
+</head>
+<body>
+<div class="header"></div>
+<div class="form">
+<form id="form" action="/api/register" method="post">
+    <label for="email">Email<sup>*</sup>:</label>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="password">Hasło<sup>*</sup>:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <label for="name">Imię<sup>*</sup>:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="surname">Nazwisko<sup>*</sup>:</label>
+    <input type="text" id="surname" name="surname"><br><br>
+    Płeć<sup>*</sup>:<br>
+    <input type="radio" id="male" name="gender" value="M">
+    <label for="male">Mężczyzna</label><br>
+    <input type="radio" id="female" name="gender" value="F">
+    <label for="female">Kobieta</label><br><br>
+    <label for="phone">Telefon:</label>
+    <input type="text" id="phone" name="phone"><br><br>
+    <label for="address">Adres:</label>
+    <input type="text" id="address" name="address"><br><br>
+    <input type="submit" id="submit" value="Zarejestruj">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+body {
+align-items: center;
+width: 100%;
+}
+
+div {
+align-items: center;
+text-align: center;
+margin: 0 auto;
+width: 30%;
+border: 2px solid #000000;
+}
+
+div.title {
+font-size: 48px;
+font-family: Raleway;
+font-weight: 0;
+background-color: #0066CC;
+color: #FFF
+}
+
+div.freeSpace {
+height: 40vh;
+background-color: #0066CCA0;
+}
+
+button {
+width: 100%;
+border: 2px;
+}
+
+.btn1{
+
+font-family: Raleway;
+font-weight: 0;
+font-size: 22px;
+color: #fff;
+background-color: #0066CC;
+box-shadow: none;
+cursor: pointer;
+}
+
+.btn2{
+font-family: Raleway;
+font-weight: 0;
+font-size: 22px;
+color: #fff;
+background-color: #0066CCA0;
+box-shadow: none;
+cursor: pointer;
+}
+
+
+
+
+
